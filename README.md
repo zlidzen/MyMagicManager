@@ -10,5 +10,5 @@ Describe case to solve:
 - need to fast comprehensive way to process big amount of cards.
 - need to aproach for creating e-list of physical deck.
 
-Solytion:
+Solution:
 - create Android app which allows to scan card and recive info about current card from open sources.
