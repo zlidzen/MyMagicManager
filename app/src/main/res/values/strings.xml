@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyMagicManager</string>
+    <string name="app_version">MyMagicManager 0.0.010</string>
+    <string name="about">About</string>
+    <string name="scan">Scan</string>
+    <string name="deck">Deck</string>
+    <string name="settings">Settings</string>
 </resources>
