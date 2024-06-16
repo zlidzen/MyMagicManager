@@ -14,50 +14,51 @@
         android:text="@string/app_version"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.955" />
 
     <Button
-        android:id="@+id/btnSettings"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/settings"
-        app:layout_constraintEnd_toEndOf="@+id/btnDecs"
-        app:layout_constraintStart_toStartOf="@+id/btnDecs"
-        app:layout_constraintTop_toBottomOf="@+id/btnDecs" />
+        app:layout_constraintEnd_toEndOf="@+id/btnOpenDecs"
+        app:layout_constraintStart_toStartOf="@+id/btnOpenDecs"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenDecs" />
 
     <Button
-        android:id="@+id/btnAbout"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnOpenAbout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/about"
-        app:layout_constraintEnd_toEndOf="@+id/btnSettings"
-        app:layout_constraintStart_toStartOf="@+id/btnSettings"
-        app:layout_constraintTop_toBottomOf="@+id/btnSettings" />
+        app:layout_constraintEnd_toEndOf="@+id/btnOpenSettings"
+        app:layout_constraintStart_toStartOf="@+id/btnOpenSettings"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenSettings" />
 
     <Button
-        android:id="@+id/btnDecs"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnOpenDecs"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/deck"
-        app:layout_constraintEnd_toEndOf="@+id/btnScan"
-        app:layout_constraintStart_toStartOf="@+id/btnScan"
-        app:layout_constraintTop_toBottomOf="@+id/btnScan" />
+        app:layout_constraintEnd_toEndOf="@+id/btnOpenScan"
+        app:layout_constraintStart_toStartOf="@+id/btnOpenScan"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenScan" />
 
     <Button
-        android:id="@+id/btnScan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:id="@+id/btnOpenScan"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
         android:text="@string/scan"
+        app:layout_constraintBottom_toTopOf="@+id/tVersion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
