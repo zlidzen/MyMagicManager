@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C0BBBB"
     tools:context=".ScanActivity">
 
     <Button
@@ -12,20 +13,20 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/scan"
-        app:layout_constraintEnd_toEndOf="@+id/imgScan"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imgScan"
-        tools:layout_editor_absoluteY="495dp" />
+        app:layout_constraintEnd_toEndOf="@+id/textureView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textureView"
+        tools:layout_editor_absoluteY="433dp" />
 
-    <ImageView
-        android:id="@+id/imgScan"
-        android:layout_width="276dp"
-        android:layout_height="109dp"
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="313dp"
+        android:layout_height="70dp"
+        android:background="#FDFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:layout_constraintVertical_bias="0.31" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
