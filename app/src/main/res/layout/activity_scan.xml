@@ -20,7 +20,7 @@
 
     <TextureView
         android:id="@+id/textureView"
-        android:layout_width="313dp"
+        android:layout_width="300dp"
         android:layout_height="70dp"
         android:background="#FDFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"

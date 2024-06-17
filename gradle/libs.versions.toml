@@ -1,5 +1,11 @@
 [versions]
 agp = "8.3.2"
+cameraCamera2 = "1.2.2"
+cameraCore = "1.2.2"
+cameraExtensions = "1.2.2"
+cameraLifecycle = "1.2.2"
+cameraVideo = "1.2.2"
+cameraView = "1.2.2"
 kotlin = "1.9.0"
 coreKtx = "1.10.1"
 junit = "4.13.2"
@@ -11,7 +17,13 @@ activity = "1.8.0"
 constraintlayout = "2.1.4"
 
 [libraries]
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCore" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCamera2" }
+camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "cameraExtensions" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraLifecycle" }
+camera-video = { module = "androidx.camera:camera-video", version.ref = "cameraVideo" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraView" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
