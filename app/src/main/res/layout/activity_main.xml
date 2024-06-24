@@ -24,6 +24,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:height="50dp"
         android:text="@string/settings"
         app:layout_constraintEnd_toEndOf="@+id/btnOpenDecs"
         app:layout_constraintStart_toStartOf="@+id/btnOpenDecs"
@@ -34,6 +35,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:height="50dp"
         android:text="@string/about"
         app:layout_constraintEnd_toEndOf="@+id/btnOpenSettings"
         app:layout_constraintStart_toStartOf="@+id/btnOpenSettings"
@@ -44,6 +46,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:height="50dp"
         android:text="@string/deck"
         app:layout_constraintEnd_toEndOf="@+id/btnOpenScan"
         app:layout_constraintStart_toStartOf="@+id/btnOpenScan"
@@ -52,13 +55,15 @@
     <Button
         android:id="@+id/btnOpenScan"
         android:layout_width="250dp"
-        android:layout_height="47dp"
+        android:layout_height="50dp"
+        android:onClick="onClickScan"
         android:text="@string/scan"
         app:layout_constraintBottom_toTopOf="@+id/tVersion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.365"
+        tools:ignore="UsingOnClickInXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
